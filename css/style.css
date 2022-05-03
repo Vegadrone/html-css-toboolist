@@ -34,14 +34,17 @@ header {
     border-radius: 10px;
 }
 
-.mini-container{
+.mini-container {
     width: 80%;
-    margin:0 auto;
+    margin: 0 auto;
 }
+
+/* Input  */
 
 #input{
     padding: 15px 0px;
 }
+
 #button{
     border: none;
     border-radius: 5px;
@@ -58,5 +61,46 @@ header {
     font-size: 16px;
     border-radius: 5px;
     text-align: center;
-
 }
+
+/* Labels */
+
+.ed-label, 
+.q1goals-label, 
+.rec-label,
+.web-label,
+.sales-label,
+.mobile-label
+{
+    background-color: rgb(20, 143, 220);
+    color:  white;
+    border-radius: 10px;
+    font-size: 12px;
+    text-align: center;
+    padding: 8px;
+}
+
+#sales{
+    background-color: rgb(149, 200, 55);
+}
+
+#web{
+    background-color: rgb(157, 17, 97);
+}
+
+#mobile{
+    background-color: rgb(224, 155, 26);
+}
+
+#recruiting{
+    background-color: rgb(32, 133, 67);
+}
+
+#q1{
+    background-color: rgb(122, 38, 136);
+}
+
+
+
+
+
