@@ -16,13 +16,14 @@ header {
 
 #logo{
     margin: 10px 0px 5px 15px;
+    vertical-align: middle;
+
 }
 
 #Title{
     font-weight: 800;
     font-size: 30px;
     vertical-align: middle;
-
 }
 
 /* MAIN */
@@ -102,17 +103,31 @@ header {
     background-color: rgb(122, 38, 136);
 }
 
-/* to-do */
+/* Lista */
 
 .to-do{
-    padding: 10px;
+    margin: 20px;
 }
 
 .arrow{
     font-size: 30px;
-    text-align: bottom;
+    margin-left: 10px;
+    
 }
 
+.x-mark{
+    color:red;
+    border: 3px solid red;
+    border-radius: 50%;
+    margin-right: 10px
+}
+
+.check{
+    color: green;
+    border: 3px solid green;
+    border-radius: 50%;
+    margin-right: 10px
+}
 
 
 
