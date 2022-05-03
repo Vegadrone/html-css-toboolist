@@ -8,33 +8,45 @@
     <title>Toboolist</title>
 </head>
 <body>
+
+<!-- HEADER -->
     <header>
         <img id=logo src="./img/Logo.png" alt="boolean-logo"><span id="Title">Toboolist</span>
         
     </header>
-    <main>
-        <section>
-            <input type="button" value="Add Task">
-            <input type="text" placeholder="Add Section">
-            <hr>
+
+<!-- MAIN -->
+    <main class="container">
+        
+<!-- Sezione input -->
+        <section class="mini-container" id="input">
+            <input id="button" type="button" value="Add Task">
+            <input id="text-box" type="text" placeholder="Add Section">
         </section>
-        <section>
+        <hr> 
+
+<!-- Sezione New Task -->
+        <section class="mini-container" id="new-task">
             <h3>New Task</h3>
-            <div>Quarterly Newsletter <span>Editorial</span></div>
+            <div>Quarterly Newsletter <span class="ed-label">Editorial</span></div>
         </section>
-        <section>
+
+<!-- Sezione Today -->
+        <section class="mini-container" id="today">
             <h3>Today</h3>
-            <div>Recruiting blog post <span>Editorial</span></div>
-            <div>Mobile app launch <span>Q1 Goals</span></div>
-            <div>Interwiew John H. <span>Recruiting</span></div>
+            <div>Recruiting blog post <span class="ed-label">Editorial</span></div>
+            <div>Mobile app launch <span lass="q1goals-label">Q1 Goals</span></div>
+            <div>Interwiew John H. <span lass="rec-label">Recruiting</span></div>
             <div>Summit update to mobile storefronts <span>Mobile</span></div>
         </section>
-        <section>
+
+<!-- Sezione Upcoming -->
+        <section class="mini-container" id="upacoming">
             <h3>Upcoming</h3>
             <div>Schedule meeting with Alex</div>
-            <div>Homepage refresh <span>Website</span></div>
-            <div>Interwiew John H. <span>Sales</span></div>
-            <div>Review editorial calendar <span>Editorial</span></div>
+            <div>Homepage refresh <span lass="web-label">Website</span></div>
+            <div>Interwiew John H. <span lass="sales-label">Sales</span></div>
+            <div>Review editorial calendar <span class="ed-label">Editorial</span></div>
         </section>
     </main>
 </body>
