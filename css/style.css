@@ -37,6 +37,7 @@ header {
 .mini-container {
     width: 80%;
     margin: 0 auto;
+    padding: 20px 0px
 }
 
 /* Input  */
@@ -55,12 +56,13 @@ header {
     cursor: pointer;
 }
 
-#text-box{
+#add{
     width:20%;
     padding: 8px;
     font-size: 16px;
     border-radius: 5px;
     text-align: center;
+    cursor: pointer;
 }
 
 /* Labels */
@@ -99,6 +101,18 @@ header {
 #q1{
     background-color: rgb(122, 38, 136);
 }
+
+/* to-do */
+
+.to-do{
+    padding: 10px;
+}
+
+.arrow{
+    font-size: 30px;
+    text-align: bottom;
+}
+
 
 
 
