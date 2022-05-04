@@ -68,12 +68,7 @@ header {
 
 /* Labels */
 
-.ed-label, 
-.q1goals-label, 
-.rec-label,
-.web-label,
-.sales-label,
-.mobile-label
+.label
 {
     background-color: rgb(20, 143, 220);
     color:  white;
@@ -81,6 +76,10 @@ header {
     font-size: 12px;
     text-align: center;
     padding: 8px;
+}
+
+#ed {
+    background-color: rgb(20, 143, 220);
 }
 
 #sales{
