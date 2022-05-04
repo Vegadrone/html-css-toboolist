@@ -40,17 +40,18 @@ header {
     width: 80%;
     margin: 0 auto;
     margin-top: 2px;
+    padding-bottom: 30px;
     border-radius: 0px 10px;
 }
 
-li{
+li {
     list-style: none;
     line-height: 2;
     margin-left: 40px;
 }
 
-h3{
-    
+li h3::before{
+    content: '\25BE';
 }
 
 .label {
@@ -101,6 +102,28 @@ h3{
 .add-sec {
     color: rgb(149, 149, 149);
     padding:8px;
+}
+
+.circle::before{
+    border: solid 1px;
+    border-radius: 50%;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+    text-align: center;
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+.check::before{
+    content: '\2714';
+    color: green;
+}
+
+.x-mark::before {
+    content: '\2718';
+    color: red;
 }
 
 
