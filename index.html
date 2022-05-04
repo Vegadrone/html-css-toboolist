@@ -12,42 +12,41 @@
 <!-- HEADER -->
     <header>
         <img id=logo src="./img/logo.png" alt="boolean-logo"><span id="Title">Toboolist</span>
-        
     </header>
 
-<!-- MAIN -->
-    <main class="container">
-        
-<!-- Sezione input -->
-        <section class="mini-container" id="input">
-            <button id="button">Add Task</button>
-            <button id="add">Add Section</button>
-        </section>
-        <hr> 
-
-<!-- Sezione New Task -->
-        <section class="mini-container" id="new-task">
-            <h3><span class="arrow">&dtrif;</span>New Task</h3>
-            <div class="to-do"><span class="check">&#10003</span>Quarterly Newsletter <span class="label"  id="ed">Editorial</span></div>
-        </section>
-
-<!-- Sezione Today -->
-        <section class="mini-container" id="today">
-            <h3><span class="arrow">&dtrif;</span>Today</h3>
-            <div class="to-do"><span class="check">&#10003</span>Recruiting blog post <span class="label" id="ed">Editorial</span></div>
-            <div class="to-do"><span class="check">&#10003</span>Mobile app launch <span id="q1" class="label">Q1 Goals</span></div>
-            <div class="to-do"><span class="x-mark">&#10008;</span>Interwiew John H. <span id="recruiting" class="label">Recruiting</span></div>
-            <div class="to-do"><span class="check">&#10003</span>Summit update to mobile storefronts <span id="mobile" class="label">Mobile</span></div>
-        </section>
-
-<!-- Sezione Upcoming -->
-        <section class="mini-container" id="upcoming">
-            <h3><span class="arrow">&dtrif;</span>Upcoming</h3>
-            <div class="to-do"><span class="x-mark">&#10008;</span>Schedule meeting with Alex</div>
-            <div class="to-do"><span class="check">&#10003</span>Homepage refresh <span id="web" class="label">Website</span></div>
-            <div class="to-do"><span class="check">&#10003</span>Interwiew John H. <span id="sales" class="label">Sales</span></div>
-            <div class="to-do"><span class="check">&#10003</span>Review editorial calendar <span class="label"  id="ed">Editorial</span></div>
-        </section>
-    </main>
-</body>
-</html>
+<div class="container">
+    <button type="button">Add Task</button>
+    <button type="button">Add Section</button>
+</div>
+<div class="tasks">
+    <ul>
+        <li>
+            <h3>New Task</h3>
+            <ul>
+                <li>Quarterly Newsletter <span class="label ed">Editorial</span></li>
+            </ul>
+        </li>
+    </ul>
+    <ul>
+        <li>
+            <h3>Today</h3>
+            <ul>
+                <li>Recruiting blog post <span class="label ed">Editorial</span></li>
+                <li>Mobile app launch <span class="label q1">Q1 Goals</span></li>
+                <li>Interview John H. <span class="label recruiting">Recruiting</span></li>
+                <li>Summit update to mobile storefronts <span class="label mobile">Mobile</span></li>
+            </ul>
+        </li>
+    </ul>
+    <ul>
+        <li>
+            <h3>Upcoming</h3>
+            <ul>
+                <li>Recruiting blog post</li>
+                <li>Mobile app launch <span class="label web">Q1 Goals</span></li>
+                <li>Interview John H. <span class="label sales">Recruiting</span></li>
+                <li>Summit update to mobile storefronts <span class="label ed">Mobile</span></li>
+            </ul>
+        </li>
+    </ul>
+</div>
